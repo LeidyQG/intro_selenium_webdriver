@@ -34,16 +34,11 @@ describe(
 
                 await miNavegador.get('https://agenciaatenea.gov.co/')
                 let titulo= await miNavegador.getTitle()
-                assert.match(titulo, /Atenea/i)
+                assert.match(titulo, /Atenea/i) //Mira si un texto cumple una expresión regular--Busca que en algún lado diga atenea, el i hace que no importe si viene en mayúsculas o minúsculas
                 await miNavegador.sleep(2000)
                
             }
         )
-
-
-
-
-
     }
 )
 

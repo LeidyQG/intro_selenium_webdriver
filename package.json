@@ -1,12 +1,12 @@
 {
   "name": "intro_selenium_webdriver",
   "version": "1.0.0",
-  "description": "",
+  "description": "Selenium webDriver",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "Leidy Quiñones",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.1",
